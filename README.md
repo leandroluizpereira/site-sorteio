@@ -8,4 +8,4 @@
  * função sorteio ( ); 
  * tabela 
 
-![imagem]()
+![imagem](https://github.com/leandroluizpereira/site-sorteio/blob/main/2021-06-25%20(2).png)
