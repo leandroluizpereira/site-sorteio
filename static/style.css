@@ -16,7 +16,8 @@ main{
     padding: 30px;
     margin: 10px auto 10px auto;
     width: 380px;
-    background-color:rgb(245, 223, 220);
+    background-color:beige;
+
 }
 .container-buttton{
     display:flex ;
@@ -24,13 +25,27 @@ main{
     align-items: center;
 }
 .botao{
-    width: 110px;
+    border-radius: 5px;
+    width: 380px;
     height: 30px;
     font-size: 14px;
-    border-radius: 10px;
     background-color: darkgreen;
     color: white;
+    animation: cor 8s infinite linear;
     
+}
+@keyframes cor{
+    from {
+        background-color:darkgreen ;
+
+    }
+    50%{
+        background-color:rgb(92, 92, 3) ;
+    }
+  
+    to{
+        background-color:brown;
+}
 }
 .botao:hover{
     cursor: pointer;
